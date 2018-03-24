@@ -1,0 +1,7 @@
+- [X] fully tests & builds all JARs; non-OSGi still, no BND.
+- [ ] OSGi BND.. find old odlparent change for bnd.bnd, apply to infrautils
+- [ ] clean up all build.gradle ... dependencyManagement; we should not need ANY version
+- [ ] mvn install, with correct GAV.
+- [ ] How to "Gradle for Bundle, Maven for Karaf features and dist" mix?  Re-activate commented out ITs.
+- [ ] clean up settings.gradle; why project ... = as File?!  parent/build/libs/parent-1.4.0-SNAPSHOT.jar ??
+- [ ] add parent: checkstyle, FindBugs, error-prone
