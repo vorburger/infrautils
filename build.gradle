@@ -15,6 +15,7 @@ subprojects {
 
   
   repositories {
+    // TODO Remove this, it should not be needed...
     mavenLocal()
     
     maven { url "http://nexus.opendaylight.org/content/repositories/public/" }
@@ -30,5 +31,10 @@ subprojects {
     compileOnly ('com.google.code.findbugs:annotations:3.0.0') {
       exclude(module: 'jcip-annotations')
     }
+    // TODO which scope is both for both src/main AND src/test, BUT still "provided" ?
+    testCompile ('com.google.code.findbugs:annotations:3.0.0') {
+      exclude(module: 'jcip-annotations')
+    }
+    testCompile 'org.eclipse.jdt:org.eclipse.jdt.annotation:2.1.0'
   }
 }

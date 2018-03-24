@@ -12,9 +12,9 @@ exclude(module: 'objenesis')
     compile group: 'org.ops4j.pax.cdi', name: 'pax-cdi-api', version:'1.0.0.RC2'
   compile project(':parent:infrautils-testutils')
     testCompile group: 'org.mockito', name: 'mockito-core', version:'1.10.19'
-    compileOnly group: 'org.osgi', name: 'org.osgi.core', version:'5.0.0'
-    compileOnly(group: 'org.opendaylight.odlparent', name: 'bundles-test-lib', version:'3.0.2') {
+    compile group: 'org.osgi', name: 'org.osgi.core', version:'5.0.0'
+    compile(group: 'org.opendaylight.odlparent', name: 'bundles-test-lib', version:'3.0.2') {
 exclude(module: 'karaf-util')
     }
-    compileOnly group: 'org.apache.karaf.bundle', name: 'org.apache.karaf.bundle.core', version:'4.1.3'
+    compile group: 'org.apache.karaf.bundle', name: 'org.apache.karaf.bundle.core', version:'4.1.3'
 }
