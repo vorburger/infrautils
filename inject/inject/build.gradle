@@ -1,5 +1,0 @@
-
-description = 'ODL :: infrautils :: inject'
-dependencies {
-    compile group: 'javax.inject', name: 'javax.inject', version:'1'
-}

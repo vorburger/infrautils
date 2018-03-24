@@ -1,7 +1,0 @@
-
-description = 'ODL :: infrautils :: metrics-impl-test'
-dependencies {
-  compile project(':parent:metrics-api')
-  compile project(':parent:infrautils-util')
-  testCompile project(':parent:infrautils-testutils')
-}
