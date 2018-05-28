@@ -35,7 +35,7 @@
       <!-- TODO Remove this dependency from here once it's removed from odlparent's dependencyManagement -->
       <groupId>io.dropwizard.metrics</groupId>
       <artifactId>metrics-core</artifactId>
-      <version>3.2.5</version>
+      <version>4.0.2</version>
     </dependency>
     <dependency>
       <groupId>io.dropwizard.metrics</groupId>
