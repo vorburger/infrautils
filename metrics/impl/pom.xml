@@ -41,7 +41,7 @@
       <groupId>io.dropwizard.metrics</groupId>
       <artifactId>metrics-jvm</artifactId>
       <!-- This version must be kept in line with the one used in metrics-api. -->
-      <version>3.2.5</version>
+      <version>4.0.2</version>
     </dependency>
 <!-- TODO
     <dependency>
