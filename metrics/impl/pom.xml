@@ -40,7 +40,7 @@
       <groupId>io.dropwizard.metrics</groupId>
       <artifactId>metrics-jmx</artifactId>
       <!-- This version must be kept in line with the ones used above -->
-      <version>4.0.2</version>
+      <version>4.0.3</version>
     </dependency>
     <dependency>
       <groupId>io.dropwizard.metrics</groupId>
